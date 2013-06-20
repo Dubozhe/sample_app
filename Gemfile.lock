@@ -73,9 +73,13 @@ GEM
     mime-types (1.23)
     mini_portile (0.5.0)
     multi_json (1.7.7)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
     nokogiri (1.6.0-java)
       mini_portile (~> 0.5.0)
     polyglot (0.3.3)
+    puma (2.1.0-java)
+      rack (>= 1.1, < 2.0)
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -147,6 +151,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
   jruby-openssl
+  puma
   rails (= 3.2.13)
   rspec-rails
   sass-rails (~> 3.2.3)

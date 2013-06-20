@@ -49,4 +49,5 @@ end
 
 group :production do
   gem 'activerecord-jdbcpostgresql-adapter'
+  gem 'puma'
 end
